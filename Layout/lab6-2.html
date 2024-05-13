@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            height: 10vh;
+            width: 100%;
+        }
+        .img{
+            float: left;
+        }
+        .menu{
+            float: right;
+            margin-top: 25px;
+            margin-right: 50px;
+            padding-right: 80px;
+        }
+        a{
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .content{
+            border: 1px dashed;
+            height: 227px;
+        }
+        .sidebar{
+            background-color: red;
+            width: 20%;
+            float: left;
+            overflow: hidden;
+        }
+        .sidebarContent{
+            border: 1px solid yellow;
+            margin: 5px 0px ;
+            font-size: 20px;
+            padding: 4px;
+            text-align: center;
+        }
+        .forimg{
+            float: left;
+        }
+        .footer{
+            background-color: blue;
+            text-align: center;
+            color: white;
+        }
+        .lower{
+            clear: left;
+        }
+        .img{
+            height: 60px;
+            width: 60px;
+            background-color: blue;
+            margin: 10px;
+            float: left;
+        }
+        @media screen and (max-width:700px) {
+            .upper{
+                display: inline;
+            }
+            .lower{
+                display: inline;
+            }         
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="img"><img src="C:\Website contain\image.jpg" height="68px" width="75px"></div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <hr>
+    <div class="content">
+            <div class="sidebar">
+                <div class="sidebarContent"><a href="#">Sidebar</a></div>
+                <div class="sidebarContent"><a href="#">Home</a></div>
+                <div class="sidebarContent"><a href="#">Placement</a></div>
+                <div class="sidebarContent"><a href="#">Recruitment</a></div>
+                <div class="sidebarContent"><a href="#">Faculty</a></div>
+                <div class="sidebarContent"><a href="#">News</a></div>
+            </div>
+            <div class="forimg">
+                <div class="upper">
+                    <div class="img"></div>
+                    <div class="img"></div>
+                </div>
+                <div class="lower">
+                    <div class="img"></div>
+                    <div class="img"></div>
+                    <div class="img"></div>
+                    <div class="img"></div>
+                </div>
+            </div>
+
+    </div>
+    <div class="footer">
+        Darshan University-Rajkot
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title></title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .main{
+                background-color: lightblue;
+                padding: 7px;
+                width: 100%;
+            }
+            .header{
+                background-color: maroon;
+                height: 10vh;
+            }
+            .content{
+                background-color: orange;height:80vh;width: 100%;
+            }
+            /* .enter{
+                width: 100%; height: 70vh;
+            } */
+            .enterbox{
+                width: 40%; height: auto;float: left;
+            }
+            #enter1{
+                background-color: black;color: white;margin-bottom: 7px;
+            }
+            #enter2{
+                background-color: black;color: white;margin-bottom: 7px;
+            }
+            #enter3{
+                background-color: black;color: white;margin-bottom: 15px;
+            }
+            /* .slide{
+                width: 40%; height: 100%;float: right;
+            } */
+            .slidebar{
+                background-color: black;color: white;width: 25%;padding: 5px; float: right;height: 109px;
+            }
+            .footer{
+                background-color: blue;
+                color: white;
+                height: 10vh;
+            }
+            @media screen and (max-width:700px){
+                    .slidebar{
+                        background-color:black;
+                        color: white;
+                        width: 100%;
+                        height: 80px;
+                    }
+                    #enter1, #enter2, #enter3{
+                        width: 100%;
+                    }
+                    .enterbox{
+                        width: 100%;
+                    }
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+
+            <div class="header">Header</div>
+            
+            <div class="content">
+                <div>Content</div>
+        
+                <div class="enterbox">
+                    <div id="enter1">Entry</div>
+                    <div id="enter2">Entry</div>
+                    <div id="enter3">Entry</div>
+                </div>
+                
+                <div class="slidebar">Sidebar</div>
+            </div>
+                <div class="footer">Darshan University-Rajkot</div>
+       
+    </body>
+</html>

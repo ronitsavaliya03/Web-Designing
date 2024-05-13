@@ -1,0 +1,57 @@
+.black{
+    height: 50px;
+    width: 1000px;
+    background-color: black;
+}
+.white{
+    height: 295px;
+    width:900px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 100px 0px 0px;
+}
+.text{
+    float:left;
+    width: 100px;
+    height: 285px;
+}
+header{
+    height:100px;
+    width: 800px;
+    background-color: brown;
+    margin-top: 5px;
+    margin-left: 100px; 
+}
+footer{
+    height: 100px;
+    width: 800px;
+    background-color: skyblue;
+    margin-bottom:5px ;
+    margin-left: 100px;
+}
+.navigation{
+    height: 285px;
+    width: 250px;
+    background-color: navy;
+    margin: 5px 5px 5px 0px;
+    float: left;
+}
+.content{
+    float: left;
+    height: 285px;
+    width: 350px;
+    margin: 5px 0px 5px 5px;
+    background-color: yellow;
+}
+.extra{
+    height: 80px;
+    width: 190px;
+    background-color: yellow;
+    float: right;
+}
+.sidebar{
+    float: right;
+    height: 200px;
+    width: 180px;
+    margin: 5px 0px 5px 5px;
+    background-color: green;
+}

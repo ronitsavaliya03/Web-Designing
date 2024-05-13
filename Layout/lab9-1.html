@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Box{
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            animation-name: demo;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes demo{
+            0%{
+                background-color: blue;
+                top: 0%;
+                left:calc(50% - 100px);
+                transform: rotate(0deg);
+            }
+            25%{
+                background-color: aqua;
+                top:50%;
+                left:calc(100% - 100px);
+                transform: rotate(90deg);
+            }
+            50%{
+                top: calc(100% - 100px);
+                left: calc(50% - 100px) ;
+                background-color: greenyellow;
+                transform: rotate(180deg);
+            }
+            75%{
+                top: 50%;
+                left: 0%;
+                background-color: blueviolet;
+                transform: rotate(270deg);
+            }
+            100%{
+                top: 0%;
+                left: 50%;
+                background-color: fuchsia;
+                transform: rotate(360deg);
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Box"><center>JUST</center></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        #div1{
+            background-color: red;
+            width: 50%;
+            float: left;
+            height: 200px;
+            padding: 20px;
+        }
+        #div2{
+            background-color: blueviolet;
+            width: 50%;
+            float: left;
+            height: 200px;
+            padding: 20px;
+
+        }
+        #div3{
+            background-color: greenyellow;
+            width: 50%;
+            float: left;
+            height: 200px;
+            padding: 20px;
+        }
+        #div4{
+            background-color:burlywood;
+            width: 50%;
+            float: left;
+            height: 200px;
+            padding: 20px;
+        }
+
+        @media (max-width:900px){
+            #div1,#div2,#div3,#div4{
+                width: 25%;
+            }
+        }
+        @media(max-width:900px) and (min-width:600px){
+            #div1,#div2,#div3,#div4{
+                width: 100%;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        hello!!
+
+    </div>
+    <div id="div2">
+        buddy.
+    </div>
+    <div id="div3">
+        buddy.
+    </div>
+    <div id="div4">
+        buddy.
+    </div>
+</body>
+</html>

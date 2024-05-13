@@ -1,0 +1,10 @@
+Chat App
+Client to Client Private chat
+Encryption -(Public key)A form of data security in which information is converted to ciphertext
+Decryption -(Private key)
+
+File sharing App and Network
+Computer ->Share
+Network  ->Receive
+
+
